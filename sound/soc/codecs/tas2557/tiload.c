@@ -39,6 +39,7 @@
 
 /* enable debug prints in the driver */
 #define DEBUG
+#undef DEBUG
 
 static struct cdev *tiload_cdev;
 static int tiload_major; /* Dynamic allocation of Mjr No. */
